@@ -11,8 +11,8 @@ import { throwError } from 'rxjs';
 import { addDependencyToPackageJson, addScriptToPackageJson } from '../../utils/package';
 import { devDependencies } from './dependencies';
 
-const TARGET_COMMON_CONFIG_PATH = 'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/common.js';
-const TARGET_TYPESCRIPT_CONFIG_PATH = 'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/typescript.js';
+const TARGET_COMMON_CONFIG_PATH = 'node_modules/@angular-devkit/build-angular/src/webpack/configs/common.js';
+const TARGET_TYPESCRIPT_CONFIG_PATH = 'node_modules/@angular-devkit/build-angular/src/webpack/configs/typescript.js';
 const NG_ADD_PUG_LOADER_SCRIPT_NAME = 'ng-add-pug-loader.js';
 
 /**
